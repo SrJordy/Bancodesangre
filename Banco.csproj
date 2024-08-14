@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE098611-B6D0-412A-AD7C-94FB98EFAFF1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Banco</RootNamespace>
+    <AssemblyName>Banco</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csCita.cs" />
+    <Compile Include="csCuestionario.cs" />
+    <Compile Include="csInventario.cs" />
+    <Compile Include="frmADCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmADCitas.Designer.cs">
+      <DependentUpon>frmADCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmADCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmADCuestionario.Designer.cs">
+      <DependentUpon>frmADCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmADdonantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmADdonantes.Designer.cs">
+      <DependentUpon>frmADdonantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgendarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgendarCita.Designer.cs">
+      <DependentUpon>frmAgendarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="csConexion.cs" />
+    <Compile Include="frmAgregarNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarNuevo.Designer.cs">
+      <DependentUpon>frmAgregarNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCuestionario.Designer.cs">
+      <DependentUpon>frmCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDonante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonante.Designer.cs">
+      <DependentUpon>frmDonante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarDatos.Designer.cs">
+      <DependentUpon>frmEditarDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo.Designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="csUsuario.cs" />
+    <Compile Include="frmContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContraseña.Designer.cs">
+      <DependentUpon>frmContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventario.Designer.cs">
+      <DependentUpon>frmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistro.Designer.cs">
+      <DependentUpon>frmRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmADCitas.resx">
+      <DependentUpon>frmADCitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmADCuestionario.resx">
+      <DependentUpon>frmADCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmADdonantes.resx">
+      <DependentUpon>frmADdonantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgendarCita.resx">
+      <DependentUpon>frmAgendarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarNuevo.resx">
+      <DependentUpon>frmAgregarNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCuestionario.resx">
+      <DependentUpon>frmCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonante.resx">
+      <DependentUpon>frmDonante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarDatos.resx">
+      <DependentUpon>frmEditarDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContraseña.resx">
+      <DependentUpon>frmContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInventario.resx">
+      <DependentUpon>frmInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistro.resx">
+      <DependentUpon>frmRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banco %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 141007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 141142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 141300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banco %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 154450.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 160431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banco %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banco %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 210132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 210328.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 210138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 210144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 210150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banco %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 212835.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 212841.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 212847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 212855.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 212901.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 213539.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-04 214748.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world-blood-donor-day-give-blood-save-life-a-bag-of-fresh-blood-or-packed-red-cells-on-white-background-donation-or-therapy-or-exchanged-transfusion-medical-sign-3d-eps10-illustration-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world-blood-donor-day-give-blood-save-life-a-bag-of-fresh-blood-or-packed-red-cells-on-white-background-donation-or-therapy-or-exchanged-transfusion-medical-sign-3d-eps10-illustration-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personaje-mujer-falda-sosteniendo-lapiz-pie-junto-gran-ilustracion-3d-papel-blanco_516484-815-_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20200312135958.20190329153405donarsangre %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 171815.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 174310.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 174928.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 175500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 180028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 180729.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 181050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 181753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 182128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-09 193855.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-09 193718.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 190727.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 191125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 192209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 193025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 193924.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 194910.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 195253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2024-08-11 195858.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donantes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informacion2.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AgendarCitas.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

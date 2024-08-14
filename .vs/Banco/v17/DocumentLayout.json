@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SrJordy\\Desktop\\BancoDeSangre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE098611-B6D0-412A-AD7C-94FB98EFAFF1}|Banco.csproj|c:\\users\\srjordy\\desktop\\bancodesangre\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE098611-B6D0-412A-AD7C-94FB98EFAFF1}|Banco.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE098611-B6D0-412A-AD7C-94FB98EFAFF1}|Banco.csproj|c:\\users\\srjordy\\desktop\\bancodesangre\\cscuestionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE098611-B6D0-412A-AD7C-94FB98EFAFF1}|Banco.csproj|solutionrelative:cscuestionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE098611-B6D0-412A-AD7C-94FB98EFAFF1}|Banco.csproj|c:\\users\\srjordy\\desktop\\bancodesangre\\csusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE098611-B6D0-412A-AD7C-94FB98EFAFF1}|Banco.csproj|solutionrelative:csusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "csCuestionario.cs",
+              "DocumentMoniker": "C:\\Users\\SrJordy\\Desktop\\BancoDeSangre\\csCuestionario.cs",
+              "RelativeDocumentMoniker": "csCuestionario.cs",
+              "ToolTip": "C:\\Users\\SrJordy\\Desktop\\BancoDeSangre\\csCuestionario.cs",
+              "RelativeToolTip": "csCuestionario.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAowG8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:31:19.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "csUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\SrJordy\\Desktop\\BancoDeSangre\\csUsuario.cs",
+              "RelativeDocumentMoniker": "csUsuario.cs",
+              "ToolTip": "C:\\Users\\SrJordy\\Desktop\\BancoDeSangre\\csUsuario.cs",
+              "RelativeToolTip": "csUsuario.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAowNgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:31:03.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\SrJordy\\Desktop\\BancoDeSangre\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\SrJordy\\Desktop\\BancoDeSangre\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:31:00.164Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
